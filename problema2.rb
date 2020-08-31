@@ -19,3 +19,5 @@ end
 # print read_file(data2)
 
 File.write('output', data.join(", "))
+
+# transformando todos los valores mayores de 20 a un máximo de 20.
