@@ -1,5 +1,4 @@
 
-
 def read_file(data2)
     original_data = open('data2').readlines
     lines = original_data.count

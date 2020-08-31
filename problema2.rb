@@ -18,4 +18,4 @@ end
 
 # print read_file(data2)
 
-File.write('output', data.join("\n"))
+File.write('output', data.join(", "))
