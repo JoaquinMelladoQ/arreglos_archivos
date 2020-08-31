@@ -1,5 +1,5 @@
-a = [2, 33, 400, 0, 5000]
+a = [1, "hola", 2, "aprendiendo", 3, "ruby"]
 
-b = a.reject {|e| e < 500}
+b = a.select {|e| e.class == String}
 
 puts b
